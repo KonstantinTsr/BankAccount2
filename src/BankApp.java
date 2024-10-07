@@ -12,11 +12,11 @@ public class BankApp {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            // Запрос ID у пользователя
+
             System.out.print("Введите ID счета (0-9): ");
             int id = scanner.nextInt();
 
-            // Проверка корректности ID
+
             while (id < 0 || id >= accounts.length) {
                 System.out.print("Некорректный ID. Пожалуйста, повторите ввод (0-9): ");
                 id = scanner.nextInt();
