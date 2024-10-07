@@ -25,7 +25,7 @@ public class BankApp {
             boolean exit = false;
             while (!exit) {
                 displayMenu();
-// fhgbufgkgh
+
                 int choice = scanner.nextInt();
 
                 switch (choice) {
